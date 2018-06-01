@@ -21,6 +21,7 @@ const Circle = (props) => {
     position: absolute;
     left: 0;
     top: 0;
+    z-index:9999;
     ${props.rotate && `
       -webkit-transform: rotate(${props.rotate}deg);
       -ms-transform: rotate(${props.rotate}deg);
