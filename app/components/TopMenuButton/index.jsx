@@ -4,7 +4,7 @@ import { TopMenuButtonWrapper } from './style';
 
 const TopMenuButton = (props) => (
   <TopMenuButtonWrapper onClick={props.onClick}>
-    <img src={props.icon} title={props.title} />
+    <text>{props.title}</text>
   </TopMenuButtonWrapper>
   );
 

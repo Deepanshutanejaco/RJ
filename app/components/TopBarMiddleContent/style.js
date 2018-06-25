@@ -19,6 +19,7 @@ export const TopBarMiddleContentWrapper = styled.div`
     @media (max-width: 425px) {
       width: ${TopBarMiddleWrapper.TopBarMiddleWrapperWidthSm};
     }
+    
 `;
 export const Logo = styled.div`
     float: left;

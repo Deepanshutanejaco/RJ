@@ -11,11 +11,10 @@ function TopBarMiddleContent(props) {
     <TopBarMiddleContentWrapper>
       <Logo></Logo>
       <RightContentWrapper>
-        <TopMenuButton title="Home"  onClick={props.updateMapToIndia} />
-        <TopMenuButton title="Screen"  onClick={props.toggleVisualizationWidget} />
-        <TopMenuButton title="Camera"  onClick={props.downloadImageFile} />
-        <TopMenuButton title="WorkSpace"  onClick={props.toggleWidgetVisibility} />
-        <TopMenuButton title="Info"  onClick={()=> onInfoClick(props)} />
+        <TopMenuButton title="CV"  onClick={props.updateMapToIndia} />
+        <TopMenuButton title="Jobs"  onClick={props.toggleVisualizationWidget} />
+        <TopMenuButton title="Blog"  onClick={props.downloadImageFile} />
+        <TopMenuButton title="Account"  onClick={props.toggleWidgetVisibility} />
       </RightContentWrapper>
     </TopBarMiddleContentWrapper>
   );
