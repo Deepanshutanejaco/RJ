@@ -29,7 +29,6 @@ import rosePlotDownloadIcon from './roseplotdownload.png';
 import leftArrow from './visualization/left_arrow.png';
 import rightArrow from './visualization/right_arrow.png';
 import opacityChanger from './opacityChanger.png';
-
 export default {
   dataRepositoryIcon,
   elementListIcon,

@@ -17,6 +17,7 @@ import NotFoundPage from 'containers/NotFoundPage/Loadable';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
 import CV from 'components/CV';
+import Test from 'components/Test';
 const AppWrapper = styled.div`
   max-width: calc(768px + 16px * 2);
   margin: 0 auto;
@@ -35,10 +36,11 @@ export default function App() {
       >
         <meta name="description" content="A React.js Boilerplate application" />
       </Helmet>
-      <Header />
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/CV" component={CV} />
+        <Route exact path="/test" component={Test} />
+        
         
         <Route path="/features" component={FeaturePage} />
         <Route path="" component={NotFoundPage} />
@@ -48,3 +50,4 @@ export default function App() {
   );
 }
 //<Footer />
+ //<Header /> before switch
