@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import CommonCarousel from 'components/CommonComponents/CommonCarousel'
 import List from 'components/CommonComponents/List';
-import Pagination from 'components/CommonComponents/Pagination';
+import Pagination from 'components/Pagination';
 
 
 export class CV extends Component { // eslint-disable-line react/prefer-stateless-function
@@ -11,23 +11,19 @@ export class CV extends Component { // eslint-disable-line react/prefer-stateles
 
    return(
 <div key ="CV" id="cv">
-<div>
-<CommonCarousel />
-</div>
+<section key ="CommonCarousel">
 
-<section key ="category">
-<div>
-<List id="category" key="category"/>
- 
-</div>
+		<div>
+		<CommonCarousel />
+		</div>
 </section>
+		<section key ="category">
+		<div>
+		<List id="category" key="category"/>
+		 
+		</div>
+		</section>
 
-<section key ="Subcategory">
-<div>
-<List key="sub" id="sub"/>
- 
-</div>
-</section>
 <section key ="resumeWithPagination">
 <Pagination />
 <div>

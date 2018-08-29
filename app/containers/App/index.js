@@ -50,4 +50,4 @@ export default function App() {
   );
 }
 //<Footer />
- //<Header /> before switch
+ // before switch

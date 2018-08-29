@@ -20,11 +20,10 @@
     border-width: 1px;
   
 }
-.flex-container > div:hover {
+/*.flex-container > div:hover {
   z-index: 2000
 }
-
-.flex-container > div > img {
+*/.flex-container > div > img {
     width: 100%;
     height: 100%;
    -webkit-transition: all 2s ease;
@@ -33,8 +32,8 @@
    transition: all 2s ease;
 
 }
-.flex-container > div > img:hover {
+/*.flex-container > div > img:hover {
   width: 150%;
   height: 150%;
   
-}
+}*/

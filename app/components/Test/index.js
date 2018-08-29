@@ -1,5 +1,6 @@
 	//ref:- https://www.w3schools.com/css/css3_flexbox.asp
-
+   
+//ref :- http://www.corelangs.com/css/box/zoom.html
 import React,{Component} from 'react';
 import Pagination from 'components/CommonComponents/Pagination';
 import images from 'components/images/CV'
@@ -28,9 +29,9 @@ function getBodyContents(){
 //	return parentDiv;
  return (
 <div className="flex-container">
-  <div><img src={images.testR1} alt="r1"/></div>
-  <div><img src={images.testR1} alt="r1"/></div>
-  <div><img src={images.testR1} alt="r1"/></div>  
+  <div><img src={images.testR2} alt="r1"/></div>
+  <div><img src={images.testR2} alt="r1"/></div>
+  <div><img src={images.testR2} alt="r1"/></div>  
   <div>4</div>
   <div>5</div>
   <div>6</div>  
