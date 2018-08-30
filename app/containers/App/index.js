@@ -18,13 +18,11 @@ import Header from 'components/Header';
 import Footer from 'components/Footer';
 import CV from 'components/CV';
 import Test from 'components/Test';
+
+import LoginPage from 'containers/Login'
+import RegisterPage from 'containers/Login/Register'
 const AppWrapper = styled.div`
-  max-width: calc(768px + 16px * 2);
-  margin: 0 auto;
-  display: flex;
-  min-height: 100%;
-  padding: 0 16px;
-  flex-direction: column;
+ 
 `;
 
 export default function App() {
@@ -37,7 +35,11 @@ export default function App() {
         <meta name="description" content="A React.js Boilerplate application" />
       </Helmet>
       <Switch>
-        <Route exact path="/" component={HomePage} />
+        <Route exact path="/" component={LoginPage} />
+        <Route exact path="/login" component={LoginPage} /> 
+        <Route exact path="/register" component={RegisterPage} />
+        
+
         <Route exact path="/CV" component={CV} />
         <Route exact path="/test" component={Test} />
         

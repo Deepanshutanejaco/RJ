@@ -10,20 +10,12 @@ import injectTapEventPlugin from 'react-tap-event-plugin';
 // http://stackoverflow.com/a/34015469/988941
 //injectTapEventPlugin();
 
-import Loginscreen from '../Login/Loginscreen'
 import styled from 'styled-components';
 
 const LoginPage = styled.div`
-    width: 50%;
+    width: 100%;
     height: 100%;
-    border: 1px;
-    margin-top: 5%;
-    padding: 0px;
-    position: absolute;
-    right: 25%;
-    border-style:solid;
-    border-color:darkgrey;
- `;
+   `;
 export class HomePage extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
  constructor(props){
     super(props);
@@ -34,10 +26,6 @@ export class HomePage extends React.PureComponent { // eslint-disable-line react
   }
   componentWillMount(){
     var loginPage =[];
-    loginPage.push(<Loginscreen key="screen"parentContext={this}/>);
-    this.setState({
-                  loginPage:loginPage
-                    })
   }
   render() {
     return (
